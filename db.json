@@ -1,0 +1,67 @@
+{
+  "usuarios": [
+    {
+      "id": 0,
+      "nombre": "pepe",
+      "apellido": "pepe",
+      "password": "pepe",
+      "email": "pepe@gmail.com"
+    },
+    {
+      "id": 1,
+      "nombre": "jose",
+      "apellido": "jose",
+      "password": "jose",
+      "email": "jose@gmail.com"
+    },
+    {
+      "id": 2,
+      "nombre": "juan",
+      "apellido": "juan",
+      "password": "juan",
+      "email": "juan@gmail.com"
+    },
+    {
+      "nombre": "jose",
+      "apellido": "jose",
+      "password": "jose",
+      "email": "jose@gmail.com",
+      "id": 3
+    },
+    {
+      "nombre": "mario",
+      "apellido": "mario",
+      "password": "mario",
+      "email": "mario@gmail.com",
+      "id": 4
+    },
+    {
+      "nombre": "German",
+      "apellido": "Rodriguez",
+      "password": "gerrod123",
+      "email": "gr@gmail.com",
+      "id": 5
+    },
+    {
+      "nombre": "German",
+      "apellido": "Rodriguez",
+      "password": "gerrod123",
+      "email": "gr@gmail.com",
+      "id": 6
+    },
+    {
+      "nombre": "Juan Ramón",
+      "apellido": "Carrasco",
+      "password": "elnamberwan-1",
+      "email": "jr@gmail.com",
+      "id": 7
+    },
+    {
+      "nombre": "Juan Ramón",
+      "apellido": "Carrasco",
+      "password": "brasil3uruguay3",
+      "email": "jr@gmail.com",
+      "id": 8
+    }
+  ]
+}

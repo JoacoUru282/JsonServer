@@ -1,0 +1,42 @@
+$ npm init -y // crea el archivo package.json que lleva las configuraciones e info del proyecto
+
+$ npm i json-server // trae el modulo y agrega dependencies
+
+Creamos un archivo db.json manualmente, ahi agregamos los datos como si fuera una base de datos
+
+Editamos el archivo package.json sustituyendo en: 
+
+"test": "echo \"Error: no test specified\" && exit 1" 
+
+por:  "server": "json-server --watch db.json"  con esto logramos que json server reinicie la "base de datos" 
+cada vez que haya un cambio
+
+$ npm run server // para ejecutarlo
+
+------------------------------------------------------------------------------------
+// COMANDOS PARA VER LOS JSON EN EL BROWSER
+
+para paginar en el browser:  
+
+ejemplo:
+localhost:3000/usuarios?_page=1&_limit=3 
+nos da la pagina 1 y un limite de los primeros 3 usuarios
+
+localhost:3000/usuarios?_sort=Nombre&_order=desc
+nos da los usuarios ordenados por su nombre de forma descendente
+------------------------------------------------------------------------------------
+
+COMANDOS POSTMAN
+en postman creamos las peticiones http://localhost:3000/usuarios
+
+POST:
+-en el metodo post creamos el cabezal(en headers): 
+
+key: Content-type , value: application/json
+
+-en body -> raw, ponemos el elemento json 
+
+IMPORTANTE PONER EN MINUSCULAS LOS NOMBRES DE LOS ATRIBUTOS DEL JSON
+------------------------------------------------------------------------------------
+
+
